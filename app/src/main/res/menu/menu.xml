@@ -1,0 +1,19 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_menu"
+        android:title="About"
+        android:icon="@drawable/ic_dehaze_white_24dp"
+        app:showAsAction="never"
+        android:orderInCategory="2">
+    </item>
+
+    <item
+        android:id="@+id/custom_list"
+        android:title="Favorites"
+        app:showAsAction="never">
+    </item>
+
+</menu>
+
