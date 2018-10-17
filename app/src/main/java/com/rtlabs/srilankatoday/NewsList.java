@@ -21,7 +21,7 @@ public class NewsList extends AppCompatActivity implements LoaderManager.LoaderC
 
     private static final String LOG_TAG = NewsList.class.getName();
 
-    private String requesturl = "https://api.rss2json.com/v1/api.json?rss_url=";
+    private String requesturl = "http://35.200.198.244:8080/api/?url=";
 
     private static final int EARTHQUAKE_LOADER_ID = 1;
 
